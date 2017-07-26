@@ -1,0 +1,21 @@
+//
+//  UIImage+SolidColor.h
+//  OperationEquipment
+//
+//  Created by 张发政 on 2017/3/13.
+//  Copyright © 2017年 cyberplus. All rights reserved.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface UIImage (SolidColor)
+/**
+ *  创建纯色图片.
+ *
+ *  @param size  The image size.
+ *  @param color The image color.
+ *
+ *  @return Image.
+ */
++ (UIImage *)imageWithSize:(CGSize)size color:(UIColor *)color;
+@end

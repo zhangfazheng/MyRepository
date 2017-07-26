@@ -1,0 +1,34 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+target 'FamilyEducation' do
+  # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
+  # use_frameworks!
+pod 'AFNetworking'
+pod 'SDWebImage'
+pod 'MBProgressHUD', '~> 1.0.0'
+pod 'Masonry'
+pod 'MJRefresh'
+pod 'FMDB'
+pod 'YYModel'
+pod 'IQKeyboardManager'
+pod 'ChameleonFramework'
+pod 'RealReachability'
+pod 'JPush'
+pod 'WebViewJavascriptBridge'
+
+  # Pods for FamilyEducation
+
+  target 'FamilyEducationTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'FamilyEducationUITests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+
+
+end
